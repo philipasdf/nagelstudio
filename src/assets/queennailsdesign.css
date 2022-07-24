@@ -1,0 +1,10 @@
+/* these styles only fits for the current Queen Nails Design (=current Flyer) */
+
+:root {
+  --nails-corporate-color: #9e472c;
+}
+#qn-header {
+  background-color: var(--nails-corporate-color);
+  position: sticky;
+  top: 0;
+}
