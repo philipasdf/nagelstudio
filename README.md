@@ -18,6 +18,17 @@ Nach paar-stündiger Recherche, wollte ich fast "Svelte" nehmen, weil ich nur ei
 | Nuxt3            | Framework für VueJS mit extra Features. Interessant hier das "Server-side rendering". | https://v3.nuxtjs.org/                       |
 | Firebase Hosting | Server zum deployen meiner Anwendung von Google                                       | https://firebase.google.com/products/hosting |
 
+# Firebase
+
+## Deployment
+
+ggf. vorher authentifizieren
+
+```sh
+npm run build
+firebase deploy
+```
+
 # VueJS
 
 ## Type Support for `.vue` Imports in TS
