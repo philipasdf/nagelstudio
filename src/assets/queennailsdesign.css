@@ -1,8 +1,19 @@
 /* these styles only fits for the current Queen Nails Design (=current Flyer) */
 
+@font-face {
+  font-family: 'Andasia';
+  src: url('fonts/Andasia.ttf');
+}
+
 :root {
   --nails-corporate-color: #9e472c;
+  --nails-corporate-font: 'Andasia';
 }
+
+h1 {
+  font-weight: normal;
+}
+
 #qn-header {
   color: white;
   background-color: var(--nails-corporate-color);
@@ -10,6 +21,10 @@
   top: 0;
   padding: 0.75rem 3rem;
   text-align: center;
+}
+#qn-header h1 {
+  font-family: var(--nails-corporate-font);
+  font-size: 3rem;
 }
 #qn-header .contact-box {
   line-height: 0.45rem;
