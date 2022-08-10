@@ -1,7 +1,7 @@
-<template></template>
+<template>
+  <Preisliste></Preisliste>
+</template>
 
-<script lang="ts">
-export default {
-  name: 'Homepage',
-};
+<script setup lang="ts">
+import Preisliste from '../components/preisliste/Preisliste.vue';
 </script>
