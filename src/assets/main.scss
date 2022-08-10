@@ -1,4 +1,4 @@
-@import './queennailsdesign.css';
+@import './queennailsdesign.scss';
 
 body {
   margin: 0;
@@ -42,9 +42,9 @@ a,
   #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
 
-  #app header {
-    align-self: center;
+    header {
+      align-self: center;
+    }
   }
 }

@@ -21,27 +21,27 @@ h1 {
   top: 0;
   padding: 0.75rem 3rem;
   text-align: center;
-}
-#qn-header h1 {
-  font-family: var(--nails-corporate-font);
-  font-size: 3rem;
-}
-#qn-header .contact-box {
-  line-height: 0.45rem;
-  font-size: 0.85rem;
+
+  h1 {
+    font-family: var(--nails-corporate-font);
+    font-size: 3rem;
+  }
+
+  .contact-box {
+    line-height: 0.45rem;
+    font-size: 0.85rem;
+  }
 }
 
 #qn-main {
   padding: 1rem 2rem;
-}
 
-#qn-main h1 {
-  color: var(--nails-corporate-color);
+  h1 {
+    color: var(--nails-corporate-color);
+  }
 }
 
 @media (min-width: 1024px) {
-  #qn-header {
-  }
   #qn-main {
     padding: 3rem;
   }

@@ -1,9 +1,5 @@
 <template>
-  <PreislisteItem
-    v-for="preisAbschnitt in preisAbschnitte"
-    v-bind="preisAbschnitt"
-    :props="preisAbschnitt"
-  ></PreislisteItem>
+  <PreislisteItem v-for="preisAbschnitt in preisAbschnitte" :props="preisAbschnitt"></PreislisteItem>
 </template>
 
 <script setup lang="ts">

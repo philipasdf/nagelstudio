@@ -23,11 +23,13 @@ defineProps({
 });
 </script>
 
-<style scoped>
-.preis-items p {
-  line-height: 1rem;
-  display: flex;
-  justify-content: space-between;
+<style scoped lang="scss">
+.preis-items {
+  p {
+    line-height: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 h3 {

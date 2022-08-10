@@ -60,6 +60,6 @@ export const PREISE: PreisAbschnitt[] = [
 ];
 
 export interface PreisAbschnitt {
-  name?: string;
-  items?: { beschreibung: string; preis: string }[];
+  name: string;
+  items: { beschreibung: string; preis: string }[];
 }
