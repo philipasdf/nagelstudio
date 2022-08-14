@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { TELEPHONE_NUMBER } from './config/telephone-number';
+import TheTelephoneButton from './components/TheTelephoneButton.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import { TELEPHONE_NUMBER } from './config/telephone-number';
       <p>{{ TELEPHONE_NUMBER }}</p>
     </div>
     <!-- TODO make this oeffnungszeiten <HelloWorld msg="You did it!" />  -->
+    <TheTelephoneButton />
   </header>
 
   <main id="qn-main">

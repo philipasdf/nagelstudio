@@ -29,8 +29,8 @@ button {
   --button-width-growed: 330px;
 
   // button position
-  position: fixed;
-  bottom: 1rem;
+  position: absolute;
+  top: 235px;
   right: 1rem;
 
   // style
