@@ -46,5 +46,7 @@ h1 {
   #qn-main {
     padding: 3rem;
     max-width: 750px;
+    max-height: 800px;
+    overflow-y: auto;
   }
 }
