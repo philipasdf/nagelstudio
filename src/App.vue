@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { TELEPHONE_NUMBER } from './config/telephone-number';
+import { MOBILE_NUMBER } from './config/telephone-number';
 import TheTelephoneButton from './components/TheTelephoneButton.vue';
 </script>
 
@@ -8,8 +8,7 @@ import TheTelephoneButton from './components/TheTelephoneButton.vue';
     <h1>Queen Nails</h1>
     <div class="contact-box">
       <p>Steinweg 20, 96450 Coburg</p>
-      <p>0152 2232 1073</p>
-      <p>{{ TELEPHONE_NUMBER }}</p>
+      <p>{{ MOBILE_NUMBER }}</p>
     </div>
     <!-- TODO make this oeffnungszeiten <HelloWorld msg="You did it!" />  -->
     <TheTelephoneButton />

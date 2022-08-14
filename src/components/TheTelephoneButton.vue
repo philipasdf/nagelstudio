@@ -5,18 +5,18 @@
 </template>
 
 <script setup lang="ts">
-import { TELEPHONE_NUMBER, TELEPHONE_NUMBER_INTERNATIONAL } from '@/config/telephone-number';
+import { MOBILE_NUMBER, MOBILE_NUMBER_INTERNATIONAL } from '@/config/telephone-number';
 import { ref } from 'vue';
 
 const BUTTON_TEXT_BEFORE_TRANSFORMED = 'Termin vereinbaren';
-const BUTTON_TEXT_AFTER_TRANSFORMED = TELEPHONE_NUMBER;
+const BUTTON_TEXT_AFTER_TRANSFORMED = MOBILE_NUMBER;
 
 let buttonText = ref(BUTTON_TEXT_BEFORE_TRANSFORMED);
 let isButtonTransformed = ref(false);
 
 function onClick() {
   if (isButtonTransformed.value) {
-    window.open('tel:' + TELEPHONE_NUMBER_INTERNATIONAL);
+    window.open('tel:' + MOBILE_NUMBER_INTERNATIONAL);
   }
   isButtonTransformed.value = true;
   buttonText.value = BUTTON_TEXT_AFTER_TRANSFORMED;
