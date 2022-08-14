@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { TELEPHONE_NUMBER } from './config/telephone-number';
+</script>
 
 <template>
   <header id="qn-header">
@@ -6,7 +8,7 @@
     <div class="contact-box">
       <p>Steinweg 20, 96450 Coburg</p>
       <p>0152 2232 1073</p>
-      <p>09561 709 33 69</p>
+      <p>{{ TELEPHONE_NUMBER }}</p>
     </div>
     <!-- TODO make this oeffnungszeiten <HelloWorld msg="You did it!" />  -->
   </header>
