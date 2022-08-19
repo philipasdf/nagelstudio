@@ -22,6 +22,7 @@ let mapDimension = Math.min(window.innerWidth, maxDimension);
 </script>
 <style scoped>
 .mapouter {
+  padding: 3rem 0 1rem;
   position: relative;
   text-align: right;
 }

@@ -25,17 +25,17 @@ function onClick() {
 
 <style scoped lang="scss">
 button {
-  --button-width: 235px;
+  --button-width: 215px;
   --button-width-growed: 330px;
 
   // button position
   position: absolute;
-  top: 235px;
+  top: 160px;
   right: 1rem;
 
   // style
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
   border: 5px solid transparent;
   background: var(--nails-corporate-color);
@@ -68,6 +68,13 @@ button {
       transform: translateX(0);
       opacity: 1;
     }
+  }
+}
+
+@media (min-width: 1024px) {
+  button {
+    position: absolute;
+    top: 235px;
   }
 }
 </style>

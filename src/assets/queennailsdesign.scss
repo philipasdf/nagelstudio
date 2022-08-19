@@ -25,9 +25,9 @@ h1 {
 
   h1 {
     font-family: var(--nails-corporate-font);
-    font-size: 3rem;
+    font-size: 2.3rem;
+    margin: 0.75rem;
   }
-
   .contact-box {
     line-height: 0.45rem;
     font-size: 0.85rem;
@@ -43,6 +43,12 @@ h1 {
 }
 
 @media (min-width: 1024px) {
+  #qn-header {
+    h1 {
+      font-size: 3rem;
+      margin: 2.5rem;
+    }
+  }
   #qn-main {
     padding: 3rem;
     max-width: 750px;
