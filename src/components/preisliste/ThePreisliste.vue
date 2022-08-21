@@ -1,4 +1,5 @@
 <template>
+  <h1>PREISE</h1>
   <PreislisteItem v-for="preisAbschnitt in preisAbschnitte" :props="preisAbschnitt"></PreislisteItem>
 </template>
 

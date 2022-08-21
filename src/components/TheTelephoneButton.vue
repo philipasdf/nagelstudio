@@ -30,7 +30,7 @@ button {
 
   // button position
   position: absolute;
-  top: 160px;
+  top: 115px;
   right: 1rem;
 
   // style
@@ -41,7 +41,7 @@ button {
   background: var(--nails-corporate-color);
   border-radius: 40px;
   border: 2px solid white;
-  padding: 15px 30px;
+  padding: 13px 30px;
 
   // long text should not increase button-size
   white-space: nowrap;
@@ -74,7 +74,7 @@ button {
 @media (min-width: 1024px) {
   button {
     position: absolute;
-    top: 235px;
+    top: 200px;
   }
 }
 </style>

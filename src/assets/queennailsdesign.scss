@@ -11,10 +11,6 @@
   --nails-corporate-font: 'Andasia';
 }
 
-h1 {
-  font-weight: normal;
-}
-
 #qn-header {
   color: white;
   background-color: var(--nails-corporate-color);
@@ -24,21 +20,23 @@ h1 {
   text-align: center;
 
   h1 {
+    font-weight: normal;
     font-family: var(--nails-corporate-font);
     font-size: 2.3rem;
     margin: 0.75rem;
   }
-  .contact-box {
-    line-height: 0.45rem;
-    font-size: 0.85rem;
-  }
 }
 
 #qn-main {
-  padding: 5rem 2rem 1rem 2rem;
+  padding: 3rem 2rem 1rem 2rem;
 
   h1 {
-    color: var(--nails-corporate-color);
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  p {
+    line-height: 1rem;
   }
 }
 
