@@ -25,6 +25,7 @@ let mapHeight = mapWidth * 0.666;
 .mapouter {
   position: relative;
   text-align: right;
+  z-index: -1;
 }
 .gmap_canvas {
   overflow: hidden;

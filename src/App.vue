@@ -5,7 +5,6 @@ import TheTelephoneButton from './components/TheTelephoneButton.vue';
 <template>
   <header id="qn-header">
     <h1>Queen Nails</h1>
-    <!-- TODO make this oeffnungszeiten <HelloWorld msg="You did it!" />  -->
     <TheTelephoneButton />
   </header>
 
