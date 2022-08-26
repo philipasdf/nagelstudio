@@ -30,7 +30,7 @@
 }
 
 #qn-header {
-  color: white;
+  color: var(--color-background);
   background-color: var(--nails-corporate-color);
   position: sticky;
   top: 0;
@@ -60,8 +60,10 @@
 
 @media (min-width: 1024px) {
   #qn-header {
+    display: grid;
+    place-items: center;
     h1 {
-      font-size: 3rem;
+      font-size: 3.25rem;
       margin: 2.5rem;
     }
   }
