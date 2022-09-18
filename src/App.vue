@@ -4,11 +4,11 @@ import TheTelephoneButton from './components/TheTelephoneButton.vue';
 
 <template>
   <header id="qn-header">
-    <h1>Queen Nails</h1>
-    <TheTelephoneButton />
+    <h1 class="fade-in-slide-in-from-left">Queen Nails</h1>
+    <TheTelephoneButton class="fade-in-slide-in-from-left"/>
   </header>
 
-  <main id="qn-main">
+  <main id="qn-main" class="fade-in">
     <router-view />
   </main>
 </template>

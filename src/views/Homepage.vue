@@ -1,5 +1,5 @@
 <template>
-  <ThePreisliste />
+  <ThePreisliste/>
   <BaseHorizontalLine />
   <TheKontakt />
   <BaseHorizontalLine />
