@@ -1,6 +1,6 @@
 <template>
   <div class="img-container">
-    <img v-bind:src="imgs[currIdx]" alt="Nagelstudio Gallerie"/>
+    <img :class="{'fade-in': animationToggle}" v-bind:src="imgs[currIdx]" alt="Nagelstudio Gallerie"/>
   </div>
 </template>
 
@@ -14,14 +14,20 @@ const imgs = [
 ]
 
 let currIdx = ref(0);
+let animationToggle = ref(true);
 
 onMounted(() => {
   setInterval(() => {
+    animationToggle.value = false;
     if (currIdx.value < imgs.length - 1) {
       currIdx.value++;
     } else {
       currIdx.value = 0;
     }
+    setTimeout(() => {
+      animationToggle.value = true;
+    }, 0);
+    
   }, 5000);
 })
 </script>
