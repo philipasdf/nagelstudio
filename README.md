@@ -22,7 +22,7 @@ Nach paar-stündiger Recherche, wollte ich fast "Svelte" nehmen, weil ich nur ei
 
 ## Deployment
 
-ggf. vorher authentifizieren
+ggf. vorher NEU authentifizieren (logout + login)
 
 ```sh
 npm run build
