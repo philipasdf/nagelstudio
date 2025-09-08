@@ -29,7 +29,7 @@ export const PREISE: PreisAbschnitt[] = [
 		items: [
 			{
 				beschreibung: 'Maniküre',
-				preis: '14',
+				preis: '18',
 			},
 			{
 				beschreibung: 'inkl. Massage',
@@ -37,7 +37,7 @@ export const PREISE: PreisAbschnitt[] = [
 			},
 			{
 				beschreibung: 'Auffüllen Natur',
-				preis: '30',
+				preis: '35',
 			},
 			{
 				beschreibung: 'Ablösen',
@@ -62,7 +62,7 @@ export const PREISE: PreisAbschnitt[] = [
 		items: [
 			{
 				beschreibung: 'Basic',
-				preis: '5',
+				preis: '10',
 			},
 			{
 				beschreibung: 'mit Lack',
@@ -74,7 +74,7 @@ export const PREISE: PreisAbschnitt[] = [
 			},
 			{
 				beschreibung: 'French oder Farbe',
-				preis: '40',
+				preis: '45',
 			},
 		],
 	},
@@ -83,15 +83,15 @@ export const PREISE: PreisAbschnitt[] = [
 		items: [
 			{
 				beschreibung: 'Pediküre',
-				preis: '25',
-			},
-			{
-				beschreibung: 'mit Lack',
 				preis: '30',
 			},
 			{
-				beschreibung: 'French oder Farbe',
+				beschreibung: 'mit Lack',
 				preis: '40',
+			},
+			{
+				beschreibung: 'French oder Farbe',
+				preis: '45',
 			},
 		],
 	},
